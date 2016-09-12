@@ -1,0 +1,90 @@
+/* ================================= 
+  Media Queries
+==================================== */
+@media (max-width: 1000px) {
+	
+	.podcast {
+		width: 90%;
+		margin: 0 auto;
+	}
+	primary-pod{
+		width: 70%;
+	}
+}
+
+
+@media (min-width: 769px) {
+	.main-header,
+  	.main-nav,
+	.main-footer,
+	.banner,
+	.host-col,
+	#signUpForm,
+	.row{
+		display: flex;
+	}
+
+	.main-header .banner .main-footer{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	col{
+		flex: 1;
+	}
+	
+	.host-col{
+		flex: 1;
+		flex-direction:column;
+
+	}
+	
+	.subscribe-col{
+		flex-direction: row ;
+		flex-wrap: wrap ;
+		justify-content: space-between;
+		align-items: center ;
+		align-content: center ;
+		margin: auto;
+	}
+	
+	.button{
+		margin-top: auto;
+		align-self:center;
+	}
+	
+	.banner{
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.section-title{
+		margin: auto;
+	}
+	
+	.primary-pod{
+		flex-grow: 2;
+	}
+	
+	.secondary-pod{
+		flex-grow: 1;
+	}
+	
+	#signUpForm{
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+}
+
+@media (min-width: 1025px) {
+	
+	.main-header,
+	.main-footer,
+	.row{
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+
+}
